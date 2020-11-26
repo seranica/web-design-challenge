@@ -1,0 +1,96 @@
+
+.h1colour {
+  font-family: 'Castoro', serif, bold;
+  font-size: 30px;
+  text-align: center;
+  color:  #4ca7a3;
+  padding: 25px 20px 20px;
+}
+
+.h2colour {
+  color:#4ca7a3;
+}
+
+.h3colour {
+  color: #4ca7a3;
+}
+
+.img {
+  padding: 20px 20px 20px 20px;
+}
+
+.pad {
+  padding: 20px 20px 20px 20px;
+}
+
+
+/*
+.button {
+  background-color: #4ca7a3;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color:#ffffff;
+
+}*/
+
+.btn_colour {
+  background-color:#20c997;
+  border-color: #20c997;
+  font-family: 'Castoro', serif, bold;
+}
+
+
+/* .nav-select {
+  padding: 5px 5px 5px 5px;
+  background-color: #0c0b0b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+ */
+
+
+.section_rel {
+  padding: 5px 5px 50px 5px;
+  background-color: #ffffff;
+  max-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.section_abs {
+  padding: 5px 5px 50px 5px;
+  background-color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 610px;
+  position: absolute;
+}
+
+
+.thumbnail {
+  width:50%;
+}
+
+
+ul {
+  border-style: solid;
+  color: #ffffff;
+}
+
+body {
+    background-color:#eaebf1;
+  }
+
+ /*  /* Here we define some styles that will ONLY be applied at screen sizes below 600 pixels */
+@include media-breakpoint-down(md) {
+  .col-md-8 {
+    display: block;
+  }
+}
