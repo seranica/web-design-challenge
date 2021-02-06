@@ -1,7 +1,7 @@
 
 .h1colour {
   font-family: 'Castoro', serif, bold;
-  font-size: 30px;
+  font-size: 45px;
   text-align: center;
   color:  #4ca7a3;
   padding: 25px 20px 20px;
@@ -23,9 +23,18 @@
   padding: 20px 20px 20px 20px;
 }
 
+.img_main {
+  width:"200";
+  height:"200";
+  /*style: "float:center";*/
+  padding: 20px 20px 20px 20px;
+}
+
 .pad {
   padding: 20px 20px 20px 20px;
 }
+
+
 
 
 /*
@@ -39,16 +48,24 @@
 }*/
 
 .btn_colour {
+  font-size: 20px;
   background-color:#20c997;
   border-color: #20c997;
   font-family: 'Castoro', serif, bold;
 }
 
+.dropdown_font {
+  font-size: 20px;
+  font-family: 'Castoro', serif, bold;
+  color:  #0c0b0b;
+}
+
 
  .nav-link {
   padding: 5px 5px 5px 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+  font-family: 'Castoro', serif, bold;
+  font-size: 20px;
   color:  #0c0b0b;
  /* background-color: #0c0b0b;
   margin-top: 0px;
@@ -57,12 +74,29 @@
   margin-left: 0px;*/
 }
 
+/*
+.section_data {
+
+  align-content: center;
+  padding: 5px 5px 5px 5px;
+  background-color: #ffffff;
+  border:0px 40px 40px 40px solid  #ffffff;
+  max-width: 600px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}*/
+
+
 
 
 .section_rel {
-  padding: 5px 5px 50px 5px;
+  /*float: left;*/
+  padding: 5px 5px 5px 5px;
   background-color: #ffffff;
-  max-width: 600px;
+  /*max-width: 600px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -71,19 +105,27 @@
 }
 
 .section_abs {
+  float: right;
   padding: 5px 5px 50px 5px;
   background-color: #ffffff;
   margin-top: 0px;
   margin-bottom: 00px;
   margin-right: 0px;
-  margin-left: 610px;
-  position: absolute;
+  /*margin-left: 610px;
+  position: absolute;*/
 }
 
 
 .thumbnail {
   width:50%;
 }
+
+.thumbnail_big {
+  width: 45%;
+  float: left;
+  position: relative;   
+}
+
 
 
 ul {
@@ -111,7 +153,28 @@ body {
       margin-bottom: 50px;
       margin-right: 0px;
       margin-left: 0px;
-      position: relative;
+     /* position: relative;*/
     }
    
  }
+
+
+ .vl {
+  border-left: 6px solid green;
+  height: 500px;
+  /*position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;*/
+}
+
+
+ <!-- style to create vertical line -->
+<style> 
+    .vertical { 
+        border-left: 6px solid black; 
+        height: 300px; 
+        /*position:absolute; 
+        left: 50%;*/
+     } 
+ </style> 
